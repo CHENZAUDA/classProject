@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1> chen car shop:</h1>
+    <div id="menu">
+      <h3>type: Private</h3>
+      <h5> wheeles: 4 <br>
+       volume: 1000<br>
+       color: black</h5>
+         
+
+      <h3>type: S.U.V</h3>
+      <h5> wheeles: 4<br>
+      volume: 1600<br>
+      color: white</h5>
+
+      <h3>type: truck</h3>
+      <h5> wheeles: 6<br>
+       volume: 2200<br>
+      color: blue</h5>
+
+
+    </div>
+
+    <div id="main">
+        <div class="space">
+            <select id="chooseViecal">
+                <label> choose viecal</label>
+                <option value="prievet">prievet</option>
+                <option value="suv">suv</option>
+                <option value="trunk">trunk</option>
+            </select>
+        </div>
+
+        <div class="space">
+            <label> viecal weeles</label>
+            <input type="number" id="weelesViecal" />
+        </div>
+        <div class="space">
+            <label> viecal volume</label>
+            <input type="number" id="volumeViecal" />
+        </div>
+        <div class="space">
+            <label> viecal color</label>
+            <input type="text" id="colorViecal" />
+        </div>
+    
+       <button id="btn">click</button>
+    
+       <table id="carsList">
+        <tr>
+            <th>type</th>
+            <th>wheels</th>
+            <th>volume</th>
+            <th>color</th>
+           
+        </tr>
+    </table>
+</div>
+    <script type="module" src="main.js"></script>
+
+</body>
+
+</html>
